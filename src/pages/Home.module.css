@@ -1,0 +1,59 @@
+.homeContainer {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #352f2f;
+  }
+  
+  .backgroundOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("C:\Users\lalitlakra\Documents\Ayurvaidyaa\Cover3.jpeg"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;  /* Slight transparency */
+    z-index: -1;
+  }
+  
+  .homeContent {
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .homeTitle {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .homeDescription {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    max-width: 600px;
+  }
+  
+  .learnMoreButton {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .learnMoreButton:hover {
+    background-color: #ff784e;
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  

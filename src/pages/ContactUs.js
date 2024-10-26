@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import styles from './Home.module.css';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const ContactUs = () => {
   return (
